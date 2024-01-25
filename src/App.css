@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  overflow-x: hidden;
+}
+#heading {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 20vh
+}
+#body {
+  display: flex;
+  height: 70vh;
+  width: 100vw;
+}
+#input {
+  padding: 1%;
+  height: 100%;
+  width: 50%;
+  border-right: black 2px solid;
+  border-top: #EAE7E4 2px solid;
+  border-bottom: #EAE7E4 2px solid;
+}
+#output {
+  padding: 1%;
+  height: 100%;
+  width: 50%;
+  border-top: #EAE7E4 2px solid;
+  border-bottom: #EAE7E4 2px solid;
+}
+textarea {
+  width: 99%;
+  height: 99%;
+  display: block;
+  margin: 0 auto;
+  resize: none;
+}
+#preview {
+  width: 99%;
+  height: 99%;
+  display: block;
+  margin: 0 auto;
+  border: black 1px solid;
+  border-radius: 2px;
+}
